@@ -86,7 +86,7 @@ if(keyDown("space") && monkey.y >= 300){
 
   } 
 
-  monkey.velocityY = monkey.velocityY + 0.8
+  monkey.velocityY = monkey.velocityY + 0.4
   
   if(gameState === PLAY){
     play(); 
